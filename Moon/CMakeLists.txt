@@ -2,6 +2,8 @@ add_executable(Moon)
 
 file(GLOB_RECURSE Moon_SRC CONFIGURE_DEPENDS
         "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Engine/Core/*.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Engine/Platform/*.cpp"
 )
 
 target_sources(Moon
