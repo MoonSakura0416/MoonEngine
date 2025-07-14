@@ -9,7 +9,7 @@ public:
     WinMainCommandParameters(HINSTANCE hInstance, HINSTANCE hPrevInstance,
                              LPSTR lpCmdLine, int nShowCmd);
 
-private:
+public:
     HINSTANCE m_hInstance;
     HINSTANCE m_hPrevInstance;
     LPSTR     m_lpCmdLine;

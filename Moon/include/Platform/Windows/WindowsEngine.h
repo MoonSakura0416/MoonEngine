@@ -18,6 +18,9 @@ public:
     int PreExit() override;
     int Exit() override;
     int PostExit() override;
+
+private:
+    bool InitWindows(const WinMainCommandParameters& InParamaters);
 };
 }  // namespace Moon
 #endif
